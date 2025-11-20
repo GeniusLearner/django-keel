@@ -10,6 +10,73 @@ Build **SaaS applications**, **API backends**, **web apps**, or **internal tools
 [![Django 5.2](https://img.shields.io/badge/django-5.2-green.svg)](https://www.djangoproject.com/)
 [![Documentation](https://readthedocs.org/projects/django-keel/badge/?version=latest)](https://django-keel.readthedocs.io/en/latest/?badge=latest)
 
+## 🎬 See It In Action
+
+<table>
+<tr>
+<td width="50%">
+
+### 💬 Interactive Mode
+*Answer prompts to customize your project*
+
+```bash
+copier copy gh:CuriousLearner/django-keel my-project
+
+🔷 Project name: My Awesome App
+🔷 Project type:
+   1 - SaaS (Multi-tenant with billing)
+   2 - API (API-only backend)
+   3 - Web App (Traditional web app)
+   4 - Internal Tool (Corporate tool)
+   5 - Custom (Choose everything)
+   Choice: 2
+
+✨ Generating your API backend...
+✅ Project ready in ./my-project!
+```
+
+**Perfect for:** First-time users, exploring options
+
+[📹 View recording](docs/assets/demo-interactive.cast)
+
+</td>
+<td width="50%">
+
+### ⚡ Quick Start Mode
+*Use a config file for instant generation*
+
+```bash
+copier copy gh:CuriousLearner/django-keel \
+  my-saas-project \
+  --data project_type=saas \
+  --trust
+
+✨ Using SaaS defaults:
+   ✓ API: Django REST Framework
+   ✓ Frontend: Next.js
+   ✓ Teams: Enabled
+   ✓ Stripe: Advanced billing
+   ✓ Deploy: Kubernetes
+
+✅ Project ready in ./my-saas-project!
+```
+
+**Perfect for:** Quick starts, automation, CI/CD
+
+[📹 View recording](docs/assets/demo-quick.cast)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**🎥 Want animated GIFs?** Upload the [demo recordings](docs/assets/) to [asciinema.org](https://asciinema.org) or convert with [agg](https://github.com/asciinema/agg)
+
+</div>
+
+---
+
 > [!NOTE]
 > **💼 Available for Hire** — Need help with **Backend Development** or **DevOps**? I specialize in Django, Python, Kubernetes, CI/CD, and cloud infrastructure.
 > 📧 Contact: [sanyam@sanyamkhurana.com](mailto:sanyam@sanyamkhurana.com)
